@@ -1,0 +1,12 @@
+../Core/Src/button.c:21:5:singleClickReset	4	static
+../Core/Src/button.c:29:5:longClickReset	4	static
+../Core/Src/button.c:37:5:isReleaseReset	4	static
+../Core/Src/button.c:44:6:getKeyInputReset	8	static
+../Core/Src/button.c:85:5:singleClickInc	4	static
+../Core/Src/button.c:93:5:longClickInc	4	static
+../Core/Src/button.c:101:5:isReleaseInc	4	static
+../Core/Src/button.c:108:6:getKeyInputInc	8	static
+../Core/Src/button.c:149:5:singleClickDec	4	static
+../Core/Src/button.c:157:5:longClickDec	4	static
+../Core/Src/button.c:165:5:isReleaseDec	4	static
+../Core/Src/button.c:172:6:getKeyInputDec	8	static

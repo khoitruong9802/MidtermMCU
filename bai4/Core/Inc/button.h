@@ -1,0 +1,36 @@
+/*
+ * button.h
+ *
+ *  Created on: Nov 7, 2022
+ *      Author: DELL
+ */
+
+#ifndef INC_BUTTON_H_
+#define INC_BUTTON_H_
+
+#include "main.h"
+
+#define NORMAL_STATE GPIO_PIN_SET
+#define PRESSED_STATE GPIO_PIN_RESET
+#define RESET_TIMER_FOR_KEY_PRESS 100
+
+extern int button0_flag;
+extern int button1_flag;
+extern int button2_flag;
+
+int singleClickReset();
+int longClickReset();
+int isReleaseReset();
+void getKeyInputReset();
+
+int singleClickInc();
+int longClickInc();
+int isReleaseInc();
+void getKeyInputInc();
+
+int singleClickDec();
+int longClickDec();
+int isReleaseDec();
+void getKeyInputDec();
+
+#endif /* INC_BUTTON_H_ */
